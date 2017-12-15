@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav div > img {
+    margin: 10px 0px 8px 30px;
+}
+
+header nav > ul {
+    margin-right: 15px;
+}
+
+header nav > ul li {
+    display: inline-block;
+    color: #ffffff;
+}
+
+header nav > ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin: 0 5px;
+}
+
+header nav > ul li a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+section.play {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background: url('./imgs/Background.png');
+    background-size: cover;
+    background-position-y: -430px;
+    margin-top: 0px;
+}
+
+section.play button {
+    font-family: inherit;
+    font-size: 24;
+    padding: 6px 40px;
+    border: 1px solid #ffffff;
+    background: none;
+    color: #ffffff;
+}
+
+section.play button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s linear;
+}
+
+svg {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+
+section, section{
+    margin-top: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.container p {
+    color: #9898A6;
+    padding: 0 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+section.technologies figure {
+    display: inline-block;
+}
+
+section.technologies img {
+    width: 100px;
+}
+
+div.container > figure > figurecaption {
+    display: block;
+    margin-top: 10px;
+    color: #9898A6;
+}
+figure.menu, figure.lastRound, figure.start, figure.statictic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 10px 10px 75px 10px;
+    align-items: center;
+}
+
+figure.menu img, figure.lastRound img, figure.start img, figure.statictic img {
+  width: 100%;
+}
+
+figure.menu img, figure.lastRound img {
+    grid-column: 1 / 3;
+}
+
+figure.start figurecaption, figure.statictic figurecaption {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+figure.start img, figure.statictic img {
+    grid-column: 2 / 4;
+}
+
+.developer img {
+    border-radius: 50%;
+}
+
+.developer figcaption {
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 50px;
+    min-height: 70px;
+    background: url('./imgs/concrete_seamless.png');
+    padding-top: 10px;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+address img {
+    width: 25px;
+}
+footer a {
+    font-family: inherit;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
+
+footer img:hover + a, footer a:hover {
+    color: #919191;
+    cursor: pointer;
+}
+

@@ -46,22 +46,23 @@ section.play {
     align-items: center;
     justify-content: center;
     min-height: 400px;
-    background: url('./imgs/Background.png');
+    background: url('./imgs/Background-game.png');
     background-size: cover;
     background-position-y: -430px;
     margin-top: 0px;
 }
 
-section.play button {
-    font-family: inherit;
+section.play a {
     font-size: 24;
     padding: 6px 40px;
     border: 1px solid #ffffff;
     background: none;
     color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s linear;
 }
 
-section.play button:hover {
+section.play a:hover {
     cursor: pointer;
     background: rgba(255, 255, 255, 0.2);
     transition: all 0.2s linear;
@@ -143,7 +144,7 @@ figure.start img, figure.statictic img {
 footer {
     margin-top: 50px;
     min-height: 70px;
-    background: url('./imgs/concrete_seamless.png');
+    background: url('./imgs/background.png');
     padding-top: 10px;
 }
 
